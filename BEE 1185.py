@@ -4,8 +4,8 @@ o = input()
 for i in range(12):
     m.append([])
     for j in range(12):
-        # x = float()
-        m[i].append(0)
+        x = float(input())
+        m[i].append(x)
 
 res = 0
 cont = 0
@@ -19,7 +19,5 @@ for i in range(11):
 
 if o == 'S':
     print(f'{res:.1f}')
-    print(cont)
 else:
     print(f'{res/cont:.1f}')
-    print(cont)

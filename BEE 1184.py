@@ -4,7 +4,7 @@ o = input()
 for i in range(12):
     m.append([])
     for j in range(12):
-        x = int(input)
+        x = float(input())
         m[i].append(x)
 
 cont = 0
